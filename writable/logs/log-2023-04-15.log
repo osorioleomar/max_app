@@ -1,0 +1,588 @@
+CRITICAL - 2023-04-15 06:03:45 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-15 06:06:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-15 06:27:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-15 07:20:29 --> Call to undefined method CodeIgniter\HTTP\UserAgent::toString()
+in APPPATH\Controllers\MaxController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MaxController->trackEmailOpens('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 08:40:37 --> Undefined variable $openTime
+in APPPATH\Controllers\TrackerController.php on line 34.
+ 1 APPPATH\Controllers\TrackerController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $openTime', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackEmailOpens()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 08:57:38 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:00:35 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:00:51 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:00:58 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:01:06 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:01:07 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:08:13 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:09:38 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:42 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:42 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:50 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:50 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:54 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:54 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:54 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:13:54 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:14:12 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:14:12 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:14:13 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:14:13 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:14:35 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:14:36 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:16:32 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:18:56 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:18:56 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:18:56 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:18:56 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:19:08 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:19:08 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:19:08 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 09:19:08 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 10:25:11 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 10:25:11 --> file_get_contents(pixel.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\TrackerController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(pixel.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\TrackerController.php', 49)
+ 2 APPPATH\Controllers\TrackerController.php(49): file_get_contents('pixel.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TrackerController->trackImage()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TrackerController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 10:52:57 --> Call to undefined method App\Models\TrackerModel::getOpensByCampaign
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DashboardController.php(21): CodeIgniter\Model->__call('getOpensByCampaign', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 10:56:12 --> Call to undefined method App\Models\TrackerModel::getOpensByCampaign
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DashboardController.php(21): CodeIgniter\Model->__call('getOpensByCampaign', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-15 10:57:42 --> mysqli_sql_exception: Table 'max_db.email_opens' doesn't exist in C:\xampp\htdocs\max_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\max_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `email`,...', 0)
+#1 C:\xampp\htdocs\max_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`,...')
+#2 C:\xampp\htdocs\max_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`,...')
+#3 C:\xampp\htdocs\max_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `email`,...', Array, false)
+#4 C:\xampp\htdocs\max_app\app\Models\TrackerModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\max_app\app\Controllers\DashboardController.php(21): App\Models\TrackerModel->getOpensByCampaign('1')
+#6 C:\xampp\htdocs\max_app\system\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+#7 C:\xampp\htdocs\max_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 C:\xampp\htdocs\max_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\max_app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-15 10:57:42 --> Table 'max_db.email_opens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `email`, `time_opened`, COUNT(*) as opens_count
+FROM `email_opens`
+WHERE `campaign_id` = \'1\'
+GROUP BY `email`, `time_opened`
+ORDER BY `time_opened` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`, `time_opened`, COUNT(*) as opens_count
+FROM `email_opens`
+WHERE `campaign_id` = \'1\'
+GROUP BY `email`, `time_opened`
+ORDER BY `time_opened` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`, `time_opened`, COUNT(*) as opens_count
+FROM `email_opens`
+WHERE `campaign_id` = \'1\'
+GROUP BY `email`, `time_opened`
+ORDER BY `time_opened` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `email`, `time_opened`, COUNT(*) as opens_count
+FROM `email_opens`
+WHERE `campaign_id` = :campaign_id:
+GROUP BY `email`, `time_opened`
+ORDER BY `time_opened` DESC', [...], false)
+ 5 APPPATH\Models\TrackerModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DashboardController.php(21): App\Models\TrackerModel->getOpensByCampaign('1')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 10:58:09 --> Undefined variable $campaignName
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $campaignName', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-15 11:00:44 --> mysqli_sql_exception: Unknown column 'tracker.campaign_id' in 'on clause' in C:\xampp\htdocs\max_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\max_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `email`,...', 0)
+#1 C:\xampp\htdocs\max_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`,...')
+#2 C:\xampp\htdocs\max_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`,...')
+#3 C:\xampp\htdocs\max_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `email`,...', Array, false)
+#4 C:\xampp\htdocs\max_app\app\Models\TrackerModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\max_app\app\Controllers\DashboardController.php(21): App\Models\TrackerModel->getOpensByCampaign('1')
+#6 C:\xampp\htdocs\max_app\system\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+#7 C:\xampp\htdocs\max_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 C:\xampp\htdocs\max_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\max_app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-15 11:00:44 --> Unknown column 'tracker.campaign_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `email`, `time_opened`, count(email) as opens
+FROM `email_open_events`
+JOIN `campaigns` ON `campaigns`.`id` = `tracker`.`campaign_id`
+WHERE `campaign_id` = \'1\'
+GROUP BY `email`
+ORDER BY `opens` DESC, `time_opened` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`, `time_opened`, count(email) as opens
+FROM `email_open_events`
+JOIN `campaigns` ON `campaigns`.`id` = `tracker`.`campaign_id`
+WHERE `campaign_id` = \'1\'
+GROUP BY `email`
+ORDER BY `opens` DESC, `time_opened` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`, `time_opened`, count(email) as opens
+FROM `email_open_events`
+JOIN `campaigns` ON `campaigns`.`id` = `tracker`.`campaign_id`
+WHERE `campaign_id` = \'1\'
+GROUP BY `email`
+ORDER BY `opens` DESC, `time_opened` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `email`, `time_opened`, count(email) as opens
+FROM `email_open_events`
+JOIN `campaigns` ON `campaigns`.`id` = `tracker`.`campaign_id`
+WHERE `campaign_id` = :campaign_id:
+GROUP BY `email`
+ORDER BY `opens` DESC, `time_opened` ASC', [...], false)
+ 5 APPPATH\Models\TrackerModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DashboardController.php(21): App\Models\TrackerModel->getOpensByCampaign('1')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:00:59 --> Undefined variable $campaignName
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $campaignName', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:01:40 --> Undefined variable $ame
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ame', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:01:46 --> Undefined variable $name
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:02:26 --> Undefined variable $name
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:02:27 --> Undefined variable $name
+in APPPATH\Views\dashboard.php on line 7.
+ 1 APPPATH\Views\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:02:41 --> Undefined variable $numOpens
+in APPPATH\Views\dashboard.php on line 8.
+ 1 APPPATH\Views\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numOpens', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:03:36 --> Undefined variable $numOpens
+in APPPATH\Views\dashboard.php on line 8.
+ 1 APPPATH\Views\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numOpens', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:03:38 --> Undefined variable $numOpens
+in APPPATH\Views\dashboard.php on line 8.
+ 1 APPPATH\Views\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numOpens', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:03:39 --> Undefined variable $numOpens
+in APPPATH\Views\dashboard.php on line 8.
+ 1 APPPATH\Views\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numOpens', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:10:16 --> Undefined property: App\Controllers\DashboardController::$campaignModel
+in APPPATH\Controllers\DashboardController.php on line 19.
+ 1 APPPATH\Controllers\DashboardController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DashboardController::$campaignModel', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\DashboardController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:14:37 --> Undefined property: App\Controllers\DashboardController::$campaignModel
+in APPPATH\Controllers\DashboardController.php on line 19.
+ 1 APPPATH\Controllers\DashboardController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DashboardController::$campaignModel', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\DashboardController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:14:38 --> Undefined property: App\Controllers\DashboardController::$campaignModel
+in APPPATH\Controllers\DashboardController.php on line 19.
+ 1 APPPATH\Controllers\DashboardController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DashboardController::$campaignModel', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\DashboardController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:16:33 --> Class "App\Controllers\CampaignModel" not found
+in APPPATH\Controllers\DashboardController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DashboardController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:17:18 --> Undefined array key "num_opens"
+in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "num_opens"', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(36): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:19:06 --> Undefined array key "num_opens"
+in APPPATH\Views\dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "num_opens"', 'C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\max_app\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(36): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:20:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\DashboardController.php on line 22.
+ 1 APPPATH\Controllers\DashboardController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\max_app\\app\\Controllers\\DashboardController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:30:11 --> Class "App\Controllers\CampaignModel" not found
+in APPPATH\Controllers\MaxController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\MaxController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:31:04 --> Class "App\Controllers\CampaignModel" not found
+in APPPATH\Controllers\MaxController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\MaxController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:31:05 --> Class "App\Controllers\CampaignModel" not found
+in APPPATH\Controllers\MaxController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\MaxController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:31:11 --> Class "App\Controllers\CampaignModel" not found
+in APPPATH\Controllers\MaxController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\MaxController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-15 11:31:11 --> Class "App\Controllers\CampaignModel" not found
+in APPPATH\Controllers\MaxController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\MaxController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
